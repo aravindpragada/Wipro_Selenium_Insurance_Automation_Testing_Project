@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="InsuranceAutomationSuite" parallel="tests" thread-count="2">
+  <listeners>
+    <listener class-name="com.parabank.listeners.TestListener"/>
+  </listeners>
+
+  <test name="Chrome-PolicyFlow">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.parabank.tests.LoginTests"/>
+      <class name="com.parabank.tests.PolicyCreationTests"/>
+      <class name="com.parabank.tests.PremiumCalculationTests"/>
+    </classes>
+  </test>
+
+  <test name="Firefox-ClaimsPayments">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.parabank.tests.RenewalTests"/>
+      <class name="com.parabank.tests.ClaimsTests"/>
+      <class name="com.parabank.tests.PaymentGatewayTests"/>
+    </classes>
+  </test>
+</suite>

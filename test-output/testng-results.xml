@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T14:58:13 IST" name="InsuranceAutomationSuite" finished-at="2025-09-08T15:01:03 IST" duration-ms="169898">
+    <groups>
+    </groups>
+    <test started-at="2025-09-08T14:58:13 IST" name="Chrome-PolicyFlow" finished-at="2025-09-08T14:59:59 IST" duration-ms="105329">
+      <class name="com.parabank.tests.PolicyCreationTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.tests.PolicyCreationTests@327514f]" started-at="2025-09-08T14:58:51 IST" name="setUp" finished-at="2025-09-08T14:58:57 IST" duration-ms="5807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createPolicy(java.lang.String)[pri:0, instance:com.parabank.tests.PolicyCreationTests@327514f]" started-at="2025-09-08T14:58:57 IST" name="createPolicy" description="Simulate policy creation via Open New Account" data-provider="policyTypes" finished-at="2025-09-08T14:59:11 IST" duration-ms="13690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SAVINGS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPolicy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.PolicyCreationTests@327514f]" started-at="2025-09-08T14:59:11 IST" name="tearDown" finished-at="2025-09-08T14:59:11 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.tests.PolicyCreationTests@327514f]" started-at="2025-09-08T14:59:11 IST" name="setUp" finished-at="2025-09-08T14:59:18 IST" duration-ms="6281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createPolicy(java.lang.String)[pri:0, instance:com.parabank.tests.PolicyCreationTests@327514f]" started-at="2025-09-08T14:59:18 IST" name="createPolicy" description="Simulate policy creation via Open New Account" data-provider="policyTypes" finished-at="2025-09-08T14:59:33 IST" duration-ms="15295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHECKING]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPolicy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.PolicyCreationTests@327514f]" started-at="2025-09-08T14:59:33 IST" name="tearDown" finished-at="2025-09-08T14:59:34 IST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.PolicyCreationTests -->
+      <class name="com.parabank.tests.LoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.tests.LoginTests@3e694b3f]" started-at="2025-09-08T14:58:14 IST" name="setUp" finished-at="2025-09-08T14:58:25 IST" duration-ms="11516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLogin()[pri:0, instance:com.parabank.tests.LoginTests@3e694b3f]" started-at="2025-09-08T14:58:25 IST" name="invalidLogin" description="Verify invalid login attempt (Parabank bug: sometimes succeeds)" finished-at="2025-09-08T14:58:33 IST" duration-ms="7624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.LoginTests@3e694b3f]" started-at="2025-09-08T14:58:33 IST" name="tearDown" finished-at="2025-09-08T14:58:39 IST" duration-ms="5980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.tests.LoginTests@3e694b3f]" started-at="2025-09-08T14:58:39 IST" name="setUp" finished-at="2025-09-08T14:58:46 IST" duration-ms="7085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLogin()[pri:0, instance:com.parabank.tests.LoginTests@3e694b3f]" started-at="2025-09-08T14:58:46 IST" name="validLogin" description="Verify valid login attempt (Parabank is unstable)" finished-at="2025-09-08T14:58:51 IST" duration-ms="4752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.LoginTests@3e694b3f]" started-at="2025-09-08T14:58:51 IST" name="tearDown" finished-at="2025-09-08T14:58:51 IST" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.LoginTests -->
+      <class name="com.parabank.tests.PremiumCalculationTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.tests.PremiumCalculationTests@5b12b668]" started-at="2025-09-08T14:59:37 IST" name="setUp" finished-at="2025-09-08T14:59:42 IST" duration-ms="5448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePremium(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.PremiumCalculationTests@5b12b668]" started-at="2025-09-08T14:59:42 IST" name="validatePremium" description="Validate premium calculation using data-driven Excel" data-provider="premiumData" finished-at="2025-09-08T14:59:42 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePremium -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.PremiumCalculationTests@5b12b668]" started-at="2025-09-08T14:59:42 IST" name="tearDown" finished-at="2025-09-08T14:59:43 IST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.tests.PremiumCalculationTests@5b12b668]" started-at="2025-09-08T14:59:43 IST" name="setUp" finished-at="2025-09-08T14:59:49 IST" duration-ms="5556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePremium(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.PremiumCalculationTests@5b12b668]" started-at="2025-09-08T14:59:49 IST" name="validatePremium" description="Validate premium calculation using data-driven Excel" data-provider="premiumData" finished-at="2025-09-08T14:59:49 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Basic]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePremium -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.PremiumCalculationTests@5b12b668]" started-at="2025-09-08T14:59:49 IST" name="tearDown" finished-at="2025-09-08T14:59:49 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.tests.PremiumCalculationTests@5b12b668]" started-at="2025-09-08T14:59:49 IST" name="setUp" finished-at="2025-09-08T14:59:54 IST" duration-ms="4355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePremium(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.PremiumCalculationTests@5b12b668]" started-at="2025-09-08T14:59:54 IST" name="validatePremium" description="Validate premium calculation using data-driven Excel" data-provider="premiumData" finished-at="2025-09-08T14:59:54 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Premium]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePremium -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.PremiumCalculationTests@5b12b668]" started-at="2025-09-08T14:59:54 IST" name="tearDown" finished-at="2025-09-08T14:59:54 IST" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.tests.PremiumCalculationTests@5b12b668]" started-at="2025-09-08T14:59:54 IST" name="setUp" finished-at="2025-09-08T14:59:58 IST" duration-ms="3742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePremium(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parabank.tests.PremiumCalculationTests@5b12b668]" started-at="2025-09-08T14:59:58 IST" name="validatePremium" description="Validate premium calculation using data-driven Excel" data-provider="premiumData" finished-at="2025-09-08T14:59:58 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Term]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePremium -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.PremiumCalculationTests@5b12b668]" started-at="2025-09-08T14:59:58 IST" name="tearDown" finished-at="2025-09-08T14:59:59 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.PremiumCalculationTests -->
+    </test> <!-- Chrome-PolicyFlow -->
+    <test started-at="2025-09-08T14:58:13 IST" name="Firefox-ClaimsPayments" finished-at="2025-09-08T15:01:03 IST" duration-ms="169898">
+      <class name="com.parabank.tests.ClaimsTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.tests.ClaimsTests@2362f559]" started-at="2025-09-08T14:59:01 IST" name="setUp" finished-at="2025-09-08T14:59:14 IST" duration-ms="13590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="submitClaim()[pri:0, instance:com.parabank.tests.ClaimsTests@2362f559]" started-at="2025-09-08T14:59:14 IST" name="submitClaim" description="Submit a claim (simulated via Bill Pay) and validate acknowledgment" finished-at="2025-09-08T15:00:03 IST" duration-ms="48233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitClaim -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.ClaimsTests@2362f559]" started-at="2025-09-08T15:00:03 IST" name="tearDown" finished-at="2025-09-08T15:00:04 IST" duration-ms="1747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.ClaimsTests -->
+      <class name="com.parabank.tests.PaymentGatewayTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.tests.PaymentGatewayTests@b2c9a9c]" started-at="2025-09-08T15:00:04 IST" name="setUp" finished-at="2025-09-08T15:00:16 IST" duration-ms="11618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="failedPayment()[pri:0, instance:com.parabank.tests.PaymentGatewayTests@b2c9a9c]" started-at="2025-09-08T15:00:16 IST" name="failedPayment" description="Validate failed transaction when account numbers do not match" finished-at="2025-09-08T15:01:01 IST" duration-ms="45296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedPayment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.PaymentGatewayTests@b2c9a9c]" started-at="2025-09-08T15:01:01 IST" name="tearDown" finished-at="2025-09-08T15:01:03 IST" duration-ms="1712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.PaymentGatewayTests -->
+      <class name="com.parabank.tests.RenewalTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.tests.RenewalTests@8297b3a]" started-at="2025-09-08T14:58:14 IST" name="setUp" finished-at="2025-09-08T14:58:42 IST" duration-ms="28594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="renewPolicy()[pri:0, instance:com.parabank.tests.RenewalTests@8297b3a]" started-at="2025-09-08T14:58:42 IST" name="renewPolicy" description="Simulate renewal by opening another account (policy) and verifying overview" finished-at="2025-09-08T14:58:58 IST" duration-ms="15761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- renewPolicy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.tests.RenewalTests@8297b3a]" started-at="2025-09-08T14:58:58 IST" name="tearDown" finished-at="2025-09-08T14:59:01 IST" duration-ms="2948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parabank.tests.RenewalTests -->
+    </test> <!-- Firefox-ClaimsPayments -->
+  </suite> <!-- InsuranceAutomationSuite -->
+</testng-results>
